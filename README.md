@@ -7,7 +7,7 @@ I am not under the impression that the Vegas team is going to improve this (I ha
 The whole intention was to make it easier to keep the volume envelopes of multichannel audio synchronized. For this script to work, the related audio tracks must be grouped in a track group. Then select some event from which the envelope points must be replicated to the other tracks within the same group andthen run the script. 
 
 ## Conditions
-A few conditions apply when running the script to determine the correct source. 
+A few conditions must be met, when running the script to determine the correct source. 
  - Only events on a single track may be selected
  - The track must be a member of a track group
 A dialog is shown in case of errors.   
