@@ -14,7 +14,7 @@ A few conditions must be met, when running the script to determine the correct s
 A dialog is shown in case of errors.   
 
 ## Installation  
-Copy the file CopyFullVolumeEnvelopeToGrp.dll from the bin folder to one of the Vegas Script folders (e.g. C:\Users\All Users\VEGAS Pro\<version>\Script Menu\) Do not install it in the 'Script Menu' folder of the Vegas installation directory, since that might be deleted during updates. 
+Copy the file GroupVolumeEnvelopeReplicate.dll from the bin folder to one of the Vegas Script folders (e.g. C:\Users\All Users\VEGAS Pro\<version>\Script Menu\) Do not install it in the 'Script Menu' folder of the Vegas installation directory, since that might be deleted during updates. 
 
 ## Disclaimer
 I usually do not use c#. The script has currenlty only been tested briefly, so use it at your own risk. It has only been tested with Vegas-Pro 19.
