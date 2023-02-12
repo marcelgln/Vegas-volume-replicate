@@ -9,7 +9,8 @@ The whole intention was to make it easier to keep the volume envelopes of multic
 ## Conditions
 A few conditions must be met, when running the script to determine the correct source. 
  - Only events on a single track may be selected
- - The track must be a member of a track group
+ - The track must be a member of a track group  
+ 
 A dialog is shown in case of errors.   
 
 ## Installation  
