@@ -4,7 +4,7 @@ There are many types of workflow which can be used when using an NLE for video. 
 Initially I expected to use an 'audio-bus' for this: assign the 4 tracks to an audio-bus, use an audio bus track with a volume envelope and you are done. Unfortunately Audio busses in Vegas do not support multi channel audio and you loose the panning information from the individual tracks. 
 I am not under the impression that the Vegas team is going to improve this (I have already seen complaints about this limitation  going back to 2011), so I decided to give the C# scripting a try, with this a (at least for me) usable result. 
 ## How it works
-The whole intention was to make it easier to keep the volume envelopes of multichannel audio synchronized. For this script to work, the related audio tracks must be grouped in a track group. Then select some event from which the envelope points must be replicated to the other tracks within the same group andthen run the script. 
+The whole intention was to make it easier to keep the volume envelopes of multichannel audio synchronized. For this script to work, the related audio tracks must be grouped in a track group. Then select some events from which the envelope points must be replicated to the other tracks (within the same group) and then execute the script. 
 
 ## Conditions
 A few conditions must be met, when running the script to determine the correct source. 
