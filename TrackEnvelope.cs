@@ -25,7 +25,7 @@ namespace volEnvelopeReplicate
         //--------------------------------------------------------------------------------------------------
         //! \brief      Replicate selected-events volume envelope from 'FromTrack' to all tracks in 'ToTracks'
         //! \details    The selected area of envelope points in the detination tracks will be an exact copy 
-        //!             the selected area in src. Any exiting points in the same area in ToTracks are deleted.  
+        //!             of the selected area in src. Any existing points in the same area in ToTracks are deleted.  
         //! \param[in]  fromTrack - Track from which colume envelope will be replicated.
         //! \param[in]  toTrack - List of tracks replicate the points to.  
         public void ReplicateVolumeEnvelopeSelection(Track fromTrack, List<Track> ToTracks)
