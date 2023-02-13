@@ -32,8 +32,11 @@ namespace volEnvelopeReplicate
             {
                 if( srcPoint.X >= tStart && srcPoint.X <= tEnd )
                 {
-                    EnvelopePoint p = new EnvelopePoint(srcPoint.X, srcPoint.Y, srcPoint.Curve);
-                    dst.Add(p);
+                    if (srcPoint.X.Nanos != 0)   // Point 0 always exists
+                    {
+                        EnvelopePoint p = new EnvelopePoint(srcPoint.X, srcPoint.Y, srcPoint.Curve);
+                        dst.Add(p);
+                    }
                 }
             }
         }
