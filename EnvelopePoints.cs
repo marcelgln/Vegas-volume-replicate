@@ -32,8 +32,14 @@ namespace volEnvelopeReplicate
             {
                 if( srcPoint.X >= tStart && srcPoint.X <= tEnd )
                 {
-                    if (srcPoint.X.Nanos != 0)   // Point 0 always exists
+                    // Point at timecode 0 always exists, but it might be different.
+                    if (srcPoint.X.Nanos == 0)
                     {
+                        dst[0].Y = srcPoint.Y;
+                        dst[0].Curve = srcPoint.Curve;
+                    }
+                    else 
+                    { 
                         EnvelopePoint p = new EnvelopePoint(srcPoint.X, srcPoint.Y, srcPoint.Curve);
                         dst.Add(p);
                     }
